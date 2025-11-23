@@ -3,8 +3,8 @@ Input and Output in C
 
 .. toctree::
    :maxdepth: 2
-
+   :caption: Input and Output in C
+   
    read-single-character
-   read-single-integer
-   read-single-floating-point-number
-   read-multiple-integers-in-one-line
+   read-single-number
+   read-multiple-numbers

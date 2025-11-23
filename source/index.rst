@@ -19,6 +19,7 @@ Thank you for visiting my site!
    :caption: C Language
 
    clang/input-output/index
+   clang/conditional-statements/index
 
 .. toctree::
    :maxdepth: 2

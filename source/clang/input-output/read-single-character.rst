@@ -1,4 +1,4 @@
-Read a single character
+Read a Single Character
 ===============================
 
 C provides built-in functions for character I/O. The common ones are ``getchar()``, ``putchar()``, ``scanf()``, and ``printf()``.
@@ -14,15 +14,16 @@ Source code
    #include <stdio.h>
 
    int main() {
-       char input_char = 'A';
 
-       /* read one character from stdin */
-       scanf("%c", &input_char);
+      char input_char = 'A';
 
-       /* print the character to stdout */
-       printf("You input: %c\n", input_char);
+      /* read one character from stdin */
+      scanf("%c", &input_char);
 
-       return 0;
+      /* print the character to stdout */
+      printf("You input: %c\n", input_char);
+
+      return 0;
    }
 
 Console Output
@@ -53,16 +54,16 @@ Source code
 
    int main() {
    
-       char input_char = 'A';
+      char input_char = 'A';
 
-       /* read one character from stdin */
-       input_char = getchar();
+      /* read one character from stdin */
+      input_char = getchar();
 
-       /* print the character to stdout */
-       putchar(input_char);
-       putchar('\n');
+      /* print the character to stdout */
+      putchar(input_char);
+      putchar('\n');
 
-       return 0;
+      return 0;
    }
 
 Console Output
